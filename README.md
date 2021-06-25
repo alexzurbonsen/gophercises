@@ -1,2 +1,2 @@
 # gophercises
-solutions for projects from [@gophercises](https://github.com/gophercises)
+solutions for excercises from [@gophercises](https://github.com/gophercises)
