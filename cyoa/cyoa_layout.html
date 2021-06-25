@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
+{{/* <style>
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style> */}}
+</head>
+
+<body>
+<h1>{{.Title}}</h1>
+
+<p>
+    {{range .Story}}
+        {{.}}
+    {{end}}
+</p>
+
+<ul>
+    {{range .Options}}
+        <li><a href="/{{.Arc}}">{{.Text}}</a></li>
+    {{end}}
+</ul>
+</body>
+</html>
